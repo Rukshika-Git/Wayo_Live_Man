@@ -1,0 +1,100 @@
+.footer_main {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #262626;
+  position: relative;
+}
+.footer_main .footer_mid {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.footer_main .footer_mid .footer_column {
+  flex: 0.33;
+  text-align: center;
+  margin-right: 35px;
+}
+.footer_main .footer_mid .footer_column:last-child {
+  margin: 0;
+}
+.footer_main .footer_mid .footer_column .lg img {
+  width: 200px;
+  filter: grayscale(1) invert(100%);
+}
+.footer_main .footer_mid .footer_column .lg {
+  text-align-last: left;
+}
+.footer_main .footer_mid .footer_column .lg,
+.footer_main .footer_mid .footer_column h2 {
+  margin-bottom: 10px;
+}
+.footer_main .footer_mid .footer_column .lg h1 {
+  font-size: 28px;
+  color: #fff;
+}
+.footer_main .footer_mid .footer_column .lg h1 span {
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff;
+}
+.footer_main .footer_mid .footer_column .lg h3 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+}
+.footer_main .footer_mid .footer_column .ab p {
+  font-size: 14px;
+  text-align: left;
+  color: #fff;
+}
+.footer_main .footer_mid .footer_column h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #fff;
+}
+.footer_main .footer_mid .footer_column p {
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+.footer_main .footer_mid .footer_column ul li {
+  list-style: none;
+}
+.footer_main .footer_mid .footer_column ul.scial {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer_main .footer_mid .footer_column ul.scial li i {
+  font-size: 30px;
+  cursor: pointer;
+}
+.footer_main .footer_mid .footer_column ul.links li {
+  margin-bottom: 5px;
+}
+.footer_main .footer_mid .footer_column ul.links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.footer_main .footer_mid .footer_column ul.links li a:hover {
+  color: var(--h1Fontcolor);
+}
+.footer_main .small_footer {
+  border-top: 1px solid #d5d5d5;
+  padding: 20px 0 0;
+  text-align: center;
+}
+.footer_main .small_footer h3 {
+  font-size: 12px;
+  color: #eee;
+}
+.footer_main .small_footer h3 span a {
+  color: var(--h1Fontcolor);
+  text-decoration: none;
+}

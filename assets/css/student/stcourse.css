@@ -1,0 +1,860 @@
+.key_model_outer {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000000a1;
+  z-index: 2000;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.key_model_outer .key_model_page {
+  position: relative;
+  padding: 25px;
+  width: 50%;
+  min-height: 20vh;
+  background-color: #262626;
+  border-radius: 3px;
+}
+.key_model_outer .key_model_page .close_key_mod {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.key_model_outer .key_model_page h3 {
+  color: #fff;
+}
+.key_model_outer .key_model_page .close_key_mod i {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.key_model_outer .key_model_page .close_key_mod i:hover {
+  color: red;
+}
+.key_model_outer .key_model_page .inpu {
+  display: flex;
+  padding: 15px 0;
+}
+.key_model_outer .key_model_page .inpu input {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #000;
+  border-right: transparent;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #eee;
+  background-color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  outline: none;
+}
+.key_model_outer .key_model_page .inpu button {
+  width: 150px;
+  border: 1px solid #777;
+  border-left: transparent;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: var(--buttonColor1);
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+/*back button*/
+.st_top_manage_body a button {
+  padding: 8px;
+  background-color: #000;
+  border: 1px solid #ffffff52;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.st_top_manage_body a button i {
+  margin-right: 5px;
+  line-height: 15px;
+}
+.st_top_manage_body a button:hover {
+  background-color: var(--h1Fontcolor);
+}
+.st_top_manage_body a button:hover i {
+  color: #fff;
+}
+.st_top_manage_body button {
+  padding: 8px;
+  background-color: #000;
+  border: 1px solid #ffffff52;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.st_top_manage_body button i {
+  margin-right: 5px;
+  line-height: 15px;
+}
+.st_top_manage_body button:hover {
+  background-color: var(--h1Fontcolor);
+}
+.st_top_manage_body button:hover i {
+  color: #fff;
+}
+
+/*!!Using teacher side styles*/
+.st_top_manage_body .st_mange_cos_body {
+  width: 100%;
+}
+/*back button*/
+.st_top_manage_body .st_mange_cos_body .pagetop {
+  padding: 20px 0;
+}
+.st_top_manage_body .st_mange_cos_body .cr_models {
+  margin: 30px 0;
+}
+.st_top_manage_body .st_mange_cos_body .pagetop h1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  text-align: left;
+  flex: 0.3 1;
+  text-transform: uppercase;
+}
+.st_top_manage_body .st_mange_cos_body .cr_models button {
+  width: 175px;
+  padding: 8px 5px;
+  border: 1px solid var(--buttonColor1);
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  outline: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+.st_top_manage_body .st_mange_cos_body .cr_models button i {
+  margin-right: 10px;
+  color: var(--buttonColor1);
+}
+.st_top_manage_body .st_mange_cos_body .cr_models button:hover {
+  background-color: var(--buttonColor1);
+  color: #fff;
+}
+.st_top_manage_body .st_mange_cos_body .cr_models button:hover i {
+  color: #fff;
+}
+/*all course*/
+.st_top_manage_body .st_mange_cos_body .cou_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.st_top_manage_body .st_mange_cos_body .cou_row h1 {
+  font-size: 23px;
+  color: var(--h1Fontcolor);
+  font-weight: 500;
+}
+
+.st_top_manage_body .st_mange_cos_body .st_manage_cos_search {
+  padding: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_cos_search input {
+  padding: 9px;
+  width: 400px;
+  border: 1px solid var(--buttonColor1);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-right: transparent;
+  outline: none;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_cos_search button {
+  background-color: #d7ebff;
+  width: 50px;
+  border: 1px solid var(--buttonColor1);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-left: transparent;
+  cursor: pointer;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_course_nav {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_course_nav button {
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+  background-color: #fff;
+  border: 2px solid #a0ceff;
+  color: var(--buttonColor1);
+  font-weight: 600;
+  width: 120px;
+  border-radius: 20px;
+  transition: 0.3s ease-in;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_course_nav button:hover {
+  background-color: var(--buttonColor1);
+  color: #fff;
+}
+.st_top_manage_body .st_mange_cos_body .outer_section {
+  background-color: #000;
+  margin-top: 20px;
+  border-radius: 8px;
+  padding: 20px;
+}
+.st_top_manage_body .st_mange_cos_body .outer_section h2 {
+  font-size: 16px;
+  color: #fff;
+}
+.st_top_manage_body .st_mange_cos_body .outer_section .inner_section {
+  background-color: transparent;
+  border-radius: 8px;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_course_grid {
+  margin-top: 25px;
+  width: 100%;
+  align-items: center;
+}
+.st_top_manage_body .st_mange_cos_body .st_manage_course_grid a {
+  text-decoration: none;
+  color: #000;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage {
+  position: relative;
+  min-height: 16vh;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #262626;
+  cursor: pointer;
+  transition: all 0.5s;
+  overflow-y: auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  grid-gap: 25px;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage.freezeCard {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage::-webkit-scrollbar {
+  width: 1px;
+  display: none;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage::-webkit-scrollbar-track {
+  background: transparent;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage::-webkit-scrollbar-thumb {
+  background-color: #afafaf;
+  border-radius: 20px;
+  border: transparent;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage:hover::-webkit-scrollbar {
+  display: block;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head {
+  position: relative;
+  width: 80px;
+  min-height: 90px;
+  flex-basis: 160px;
+  transition: 0.5s ease;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head
+  h3 {
+  font-size: 15px;
+  color: #fff;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head
+  .label {
+  background-color: var(--h1Fontcolor);
+  min-width: 80px;
+  text-align: center;
+  padding: 4px;
+  margin-top: 8px;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head
+  img {
+  opacity: 1;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head:hover
+  img {
+  opacity: 0.9;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body {
+  text-align: left;
+  height: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  h3 {
+  font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .label {
+  width: 100px;
+  font-size: 13px;
+  background-color: var(--h1Fontcolor);
+  text-align: center;
+  margin: 5px 0;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_tail {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 10px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_tail
+  button {
+  background-color: var(--h1Fontcolor);
+  padding: 6px;
+  width: 120px;
+  color: #fff;
+  border: 1px solid transparent;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  font-size: 13px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  h4 {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #eee;
+  font-weight: 500;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .cs_st_tail
+  h4 {
+  font-size: 12px;
+  color: #000;
+  font-weight: 400;
+  text-align: center;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row
+  button {
+  padding: 6px 0;
+  width: 125px;
+  background-color: #fff;
+  border: 1px solid var(--buttonColor1);
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  transition: 0.5s ease;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row
+  button
+  i {
+  font-size: 12px;
+  margin-right: 10px;
+  color: var(--buttonColor1);
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row
+  button:nth-child(2) {
+  background-color: #45ab73;
+  color: #fff;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row
+  button:nth-child(2)
+  i {
+  color: #fff;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row
+  button:nth-child(1):hover {
+  background-color: var(--buttonColor1);
+  color: #fff;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_purchase_row
+  button:nth-child(1):hover
+  i {
+  color: #fff;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_cs_tail {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: right;
+  padding: 10px 8px;
+  font-size: 13px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_cs_tail
+  h4 {
+  color: #838383;
+  font-weight: 400;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_body
+  .st_cs_tail
+  h4
+  i {
+  margin-right: 5px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_manage_num {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  color: var(--h1Fontcolor);
+  display: flex;
+  padding: 5px 2px 2px 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  border-bottom-right-radius: 50px;
+  transition: 0.5s;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head
+  .dura {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  padding: 7px 10px;
+  background-color: var(--h1Fontcolor);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head
+  .dura
+  h3,
+i.cl {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_grid_card_mg_head
+  .dura
+  i {
+  margin-right: 5px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_manage_num:hover {
+  width: 60px;
+  height: 60px;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 5px;
+  color: #fff;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna
+  h3 {
+  margin-bottom: 5px;
+  text-align: right;
+  color: #fff;
+  cursor: pointer;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna
+  h3
+  i {
+  font-size: 17px;
+  color: #fff;
+  transition: 0.5s;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna:hover
+  h3
+  i {
+  font-size: 18px;
+  transform: rotateZ(180deg);
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna:hover
+  .st_options_manage {
+  display: block;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna
+  .st_options_manage {
+  display: none;
+  width: 130px;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #000;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna
+  .st_options_manage
+  ul
+  li {
+  list-style: none;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  text-align: right;
+  font-size: 15px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: red;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna
+  .st_options_manage
+  ul
+  a
+  li {
+  color: #000;
+  font-size: 14px;
+  color: #ff9d00;
+}
+.st_top_manage_body
+  .st_mange_cos_body
+  .st_manage_course_grid
+  .st_grid_card_manage
+  .st_cos_options_mna
+  .st_options_manage
+  ul
+  li:hover {
+  background-color: #f1f1f1;
+}
+
+.st_top_manage_body .st_cos_details {
+  background-color: #fff;
+  padding: 8px 6px;
+  border: 1px solid #bebebe;
+}
+.st_top_manage_body .st_cos_details .st_cos_details_head {
+  padding-bottom: 8px;
+  position: relative;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 8px;
+}
+.st_top_manage_body .st_cos_details .cos_tool_bar {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background-color: #fff;
+}
+.st_top_manage_body .st_cos_details .st_cos_details_head .cos_tool_bar h3 {
+  cursor: pointer;
+  font-size: 13px;
+  color: #000;
+  padding: 3px;
+  border: 1px solid var(--h1Fontcolor);
+}
+.st_top_manage_body
+  .st_cos_details
+  .st_cos_details_head
+  .cos_tool_bar
+  h3:hover {
+  background-color: var(--h1Fontcolor);
+  color: #fff;
+  transition: 0.5s ease;
+}
+.st_top_manage_body .st_cos_details .cos_tool_bar h3:hover i {
+  color: #fff;
+  transform-origin: center;
+  transform-box: fill-box;
+  animation: 2s rot linear infinite;
+}
+@keyframes rot {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+.st_top_manage_body .st_cos_details .st_cos_details_head h3 {
+  margin-bottom: 3px;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--h1Fontcolor);
+}
+.st_top_manage_body .st_cos_details .st_cos_details_head h4 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777;
+}
+.st_top_manage_body .st_cos_details .st_cos_details_body h4 {
+  font-size: 14px;
+  color: var(--h1Fontcolor);
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.st_top_manage_body .st_cos_details .st_cos_details_body .st_cos_details_b_mid {
+  padding: 5px;
+  width: 100%;
+  height: 250px;
+  font-size: 14px;
+  font-weight: 400;
+  overflow-y: auto;
+}
+.st_top_manage_body
+  .st_cos_details
+  .st_cos_details_body
+  .st_cos_details_b_mid
+  p {
+  color: #777777;
+  text-align: justify;
+}
+.st_top_manage_body
+  .st_cos_details
+  .st_cos_details_body
+  .st_cos_details_b_mid::-webkit-scrollbar {
+  width: 4px;
+}
+.st_top_manage_body
+  .cos_details
+  .cos_details_body
+  .cos_details_b_mid::-webkit-scrollbar-track {
+  background: transparent;
+}
+.st_top_manage_body
+  .cos_details
+  .cos_details_body
+  .cos_details_b_mid::-webkit-scrollbar-thumb {
+  background-color: #afafaf;
+  border-radius: 20px;
+  border: transparent;
+}
+
+@media screen and (max-width: 700px) {
+  .st_top_manage_body
+    .st_mange_cos_body
+    .st_manage_course_grid
+    .st_grid_card_manage {
+    flex-direction: column;
+  }
+  .st_top_manage_body
+    .st_mange_cos_body
+    .st_manage_course_grid
+    .st_grid_card_manage
+    .st_grid_card_mg_head {
+    width: 100%;
+  }
+  .st_top_manage_body
+    .st_mange_cos_body
+    .st_manage_course_grid
+    .st_grid_card_manage
+    .st_grid_card_mg_body {
+    width: 100%;
+  }
+  .st_top_manage_body
+    .st_mange_cos_body
+    .st_manage_course_grid
+    .st_grid_card_manage
+    .st_grid_card_mg_tail {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 390px) {
+  .st_top_manage_body
+    .st_mange_cos_body
+    .st_manage_course_grid
+    .st_grid_card_manage
+    .st_grid_card_mg_tail {
+    justify-content: center;
+  }
+  .key_model_outer .key_model_page {
+    width: 90%;
+  }
+}
